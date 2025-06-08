@@ -2,7 +2,7 @@ Raspberry Pi Cloud Server Setup (Nextcloud + Tailscale)
 
 This guide helps you set up a private cloud on a Raspberry Pi using Nextcloud and secure remote access with Tailscale.
 
-Step 1: Mount the External Hard Drive (Optional)
+Step 1: Mount the External Hard Drive
 
 Run these commands to format and mount your hard drive:
 
