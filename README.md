@@ -1,3 +1,6 @@
+📝 Project Description
+A self-hosted private cloud solution using Raspberry Pi 5, Nextcloud, and Tailscale Funnel — enabling secure, global access without static IP or port forwarding.
+
 Raspberry Pi Cloud Server Setup (Nextcloud + Tailscale)
 
 This guide helps you set up a private cloud on a Raspberry Pi using Nextcloud and secure remote access with Tailscale.
