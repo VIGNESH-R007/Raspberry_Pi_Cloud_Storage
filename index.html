@@ -1,12 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Raspberry Pi Cloud Setup</title>
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <script defer src="script.js?v=3"></script>
+  <link rel="stylesheet" href="styles.css?v=2">
+  <script src="script.js?v=2"></script>
+
 </head>
 <body>
   <header>
@@ -93,13 +96,14 @@
 
       <div class="step">Step 3: Add Trusted Domain in Nextcloud Config</div>
       <div class="command">sudo nano /var/www/nextcloud/config/config.php</div>
-      <div class="command">'trusted_domains' => array (
-  0 => '192.168.33.135',
-  1 => '192.168.76.135',
-  2 => '100.68.238.13',
-  3 => '172.16.0.66',
-  4 => '192.168.130.135',
-  5 => 'rkraspberrypi.tail6f52bf.ts.net',
+      <div class="command">Add your ip in the nano</div>
+      <div class="command">'trusted_domains' => array (//add your ip and url
+0 => '192.168.33.135',
+1 => '192.168.76.135',
+2 => '100.68.238.13',
+3 => '172.16.0.66',
+4 => '192.168.130.135',
+5 => 'rkraspberrypi.tail6f52bf.ts.net',
 ),</div>
 
       <div class="step">Step 4: Restart Apache2</div>
@@ -108,7 +112,9 @@
   </main>
 
   <footer>
-    @ Raspberry Pi Cloud Storage Guide
+    © 2025 Raspberry Pi Cloud Storage Guide
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
